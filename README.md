@@ -52,6 +52,7 @@ The aim of this project is to study various modes in bag-of-words model, and bui
 <!-- Final Notes -->
 ## Final Notes
 To run the entire project use JupyterLab or similar IDE.
+
 Note: Notebooks use python scripts to run.
 
 To run the python scripts:
