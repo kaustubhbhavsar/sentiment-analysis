@@ -27,6 +27,7 @@ The aim of this project is to study various modes in bag-of-words model, and bui
 
 <!-- Project Structure -->
 ## Project Structure
+```
 ├── Data                           # Data files
     ├── Raw                        # Raw files (for training and testing)
     │   ├── neg                    # Negative review files/documents
@@ -44,6 +45,7 @@ The aim of this project is to study various modes in bag-of-words model, and bui
 ├── helper_analysis.py             # Python script for analysis
 ├── helper_vocab.py                # Python script for vocabulary processing/creation
 ├── training_final_model.ipynb     # Final model training/tuning
+```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
