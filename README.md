@@ -19,7 +19,7 @@ The aim of this project is to study various modes in bag-of-words model, and bui
 
 
 <!-- PROJECT SUMMARY -->
-## SUMMARY
+## Summary
 The required data is provided by the Cornell University and can be downloaded directly from <a href="https://www.cs.cornell.edu/people/pabo/movie-review-data/">here</a> (polarity dataset v2.0). The dataset contains both positive and negative movie reviews. Each review is stored as a separate document in a text file.
 
 
@@ -52,8 +52,8 @@ The required data is provided by the Cornell University and can be downloaded di
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-<!-- Tools and Libraries Used -->
-## Languge and Libraries Used
+<!-- Tools and Libraries used -->
+## Languge and Libraries
 
 *   Language: Python
 *   Libraries: NLTK, Keras, TensorFlow, Tokenizer, WordCloud, Re, Matplotlib, Seaborn, Numpy, Pandas.
