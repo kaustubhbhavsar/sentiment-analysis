@@ -17,13 +17,15 @@ The aim of this project is to study various modes in bag-of-words model, and bui
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- Tools and Libraries Used -->
-## Languge and Libraries Used
 
-*   Language: Python
-*   Libraries: NLTK, Keras, TensorFlow, Tokenizer, WordCloud, Re, Matplotlib, Seaborn, Numpy, Pandas.
+<!-- PROJECT SUMMARY -->
+## SUMMARY
+The required data is provided by the Cornell University and can be downloaded directly from <a href="https://www.cs.cornell.edu/people/pabo/movie-review-data/">here</a> (polarity dataset v2.0). The dataset contains both positive and negative movie reviews. Each review is stored as a separate document in a text file.
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
 
 <!-- Project Structure -->
 ## Project Structure
@@ -46,6 +48,15 @@ The aim of this project is to study various modes in bag-of-words model, and bui
 ├── helper_vocab.py                # Python script for vocabulary processing/creation
 ├── training_final_model.ipynb     # Final model training/tuning
 ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- Tools and Libraries Used -->
+## Languge and Libraries Used
+
+*   Language: Python
+*   Libraries: NLTK, Keras, TensorFlow, Tokenizer, WordCloud, Re, Matplotlib, Seaborn, Numpy, Pandas.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
