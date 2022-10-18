@@ -66,7 +66,7 @@ Final Model (binary + fine-tuned) | 0.8849
 ├── data_analysis.ipynb            # Analysing the review documents
 ├── helper_analysis.py             # Python script for analysis
 ├── helper_vocab.py                # Python script for vocabulary processing/creation
-├── predict_.py                # Python script for predicting sentiments
+├── predict_.py                    # Python script for predicting sentiments
 ├── training_final_model.ipynb     # Final model training/tuning
 ```
 
