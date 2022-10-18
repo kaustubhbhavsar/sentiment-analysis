@@ -22,16 +22,28 @@ The aim of this project is to study various modes in bag-of-words model, and bui
 ## Summary
 The required data is provided by the Cornell University and can be downloaded directly from <a href="https://www.cs.cornell.edu/people/pabo/movie-review-data/">here</a> (polarity dataset v2.0). The dataset contains both positive and negative movie reviews. Each review is stored as a separate document in a text file.
 
+To achieve the above mentioned aim, review documents are analyzed to understand the preprocessing steps that could help clean the documents (data_analysis.ipynb). A vocabulary file is generated from the training documents (helper_vocab.py). After comparing the four text encoding schemes, i.e. binary, count, tfidf, and frequency, of bag-of-words model,  it is noticed that binary encoding scheme achieves highest accuracy of 92.22% (comparative_analysis.ipynb). In the final model training, binary encoding scheme is used, and model fine tuning is performed (training_final_model.ipynb).
+
+BOW Encoding Scheme | Accuracy
+------------ | ------------- 
+binary | 0.9222
+count |  0.8911
+tfidf | 0.8704
+freq | 0.8601
+
+Final Model (binary + fine-tuned) : Training Accuracy: 0.8849 and Validation Accuracy: 0.8842 
+
+> NOTE: During comparative analysis, the models may not be as robust as the final model because they were not validated or not even regularized.
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- Project Structure -->
 ## Project Structure
 ```
 ├── Data                           # Data files
-    ├── Raw                        # Raw files (for training and testing)
+    ├── Raw                        # Raw files (zip folder)
     │   ├── neg                    # Negative review files/documents
             ├── .... 
     │   ├── pos                    # Positive review files/documents
@@ -43,9 +55,9 @@ The required data is provided by the Cornell University and can be downloaded di
     ├── ....                        
 ├── comparative_analysis.ipynb     # Comparative analysis all the bag-of-word modes
 ├── data_analysis.ipynb            # Analysing the review documents
-├── data_analysis.ipynb            # Analysing the review documents
 ├── helper_analysis.py             # Python script for analysis
 ├── helper_vocab.py                # Python script for vocabulary processing/creation
+├── predict_.py                # Python script for predicting sentiments
 ├── training_final_model.ipynb     # Final model training/tuning
 ```
 
