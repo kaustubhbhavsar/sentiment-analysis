@@ -77,7 +77,7 @@ Final Model (binary+fine-tuned) | 0.8849
 ## Languge and Libraries
 
 *   Language: Python
-*   Libraries: NLTK, Keras, TensorFlow, Tokenizer, WordCloud, Re, Matplotlib, Seaborn, Numpy, Pandas.
+*   Libraries: NLTK, Keras, Tokenizer, WordCloud, Re, Matplotlib, Seaborn, Numpy, Pandas, String.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
