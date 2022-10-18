@@ -34,7 +34,7 @@ binary | 0.9222
 count |  0.8911
 tfidf | 0.8704
 freq | 0.8601
-Final Model (binary + fine-tuned) | 0.8849
+Final Model (binary+fine-tuned) | 0.8849
 
 </div>
 
