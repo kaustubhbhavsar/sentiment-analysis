@@ -121,10 +121,10 @@ def define_model(n_words):
     Function to define the model.
     
     Parameters:
-        n_words (): .
+        n_words ():
         
     Returns:
-        model ( ): Neural network model.
+        model (): Neural network model.
     '''
     model = Sequential()
     model.add(Dense(50, input_shape=(n_words,), activation='relu'))
@@ -158,13 +158,13 @@ def prepare_data(train_docs, test_docs, mode):
     Function to prepare bag of words encoding of docs.
     
     Parameters:
-        train_docs (): 
-        test_docs ():
-        mode ():
+        train_docs (): Training dataset. 
+        test_docs (): Testing dataset.
+        mode (string): Bag-of-words embedding technique
         
     Returns:
-        Xtrain (): 
-        Xtest ():
+        Xtrain (): Processed train dataset. 
+        Xtest (): Processed test dataset.
     '''
     tokenizer = Tokenizer()
     tokenizer.fit_on_texts(train_docs)
