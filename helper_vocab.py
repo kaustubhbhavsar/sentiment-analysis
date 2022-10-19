@@ -132,3 +132,8 @@ if __name__ == '__main__':
     save_token_list(vocab_counter, vocab_filename='Data/Vocab/vocab_all_occ.txt') #saving list of all the tokens in a file
     tokens_min_occurance = tokens_min_occurance(min_occurance, vocab_counter, vocab_filename='Data/Vocab/vocab_min_occ.txt')
     print('Vocabulary Length (tokens with minimum occurance of ', min_occurance,'): ', len(tokens_min_occurance))
+
+    
+'''
+Note: Use the tokens_min_occurance() function to explore the vocabulary (say, smaller vocabulary or larger vocabulary) to achieve better performance.
+'''
