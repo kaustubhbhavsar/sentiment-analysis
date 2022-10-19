@@ -13,6 +13,11 @@ directory_pos = 'Data/Raw/pos' # file address for positive sentences
 directory_neg = 'Data/Raw/neg' # file address for positive sentences
 
 
+'''
+Note: Last 100 negative reviews as well as last 100 positive reviews will be used for model testing.
+'''
+
+
 def load_doc(filename):
     '''
     Function to load document into memory.
