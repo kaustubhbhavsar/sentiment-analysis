@@ -45,11 +45,18 @@ Final Model (binary+fine-tuned) | 0.8849
 > NOTE: During comparative analysis, the models may not be as robust as the final model because they were not validated or not even regularized.
 
 
+### Limitations & Future Work:
+
+1. The project uses entire available vocabulary and that leads to sparse matrix. Recommended to try different vocabulary sizes.
+
+2. Every training document is used as it is. Experimentions with truncated reviews could be tried, as that reduces the matrix size, and thus sparsity.
+
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-<!-- Project Structure -->
-## Project Structure
+<!-- Project Directory Structure -->
+## Directory Structure
 ```
 ├── Data                           # Data files
     ├── Raw                        # Raw files (zip folder)
@@ -69,6 +76,10 @@ Final Model (binary+fine-tuned) | 0.8849
 ├── predict_.py                    # Python script for predicting sentiments
 ├── training_final_model.ipynb     # Final model training/tuning
 ```
+
+
+> NOTE: 'Raw' folder is compressed.
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -91,6 +102,7 @@ To run the python scripts:
 ```
 $ python helper_analysis.py
 $ python helper_vocab.py
+$ python predict_.py
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
