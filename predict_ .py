@@ -141,3 +141,8 @@ if __name__ == '__main__':
     text = 'Bad movie. Worst screenplay.'
     percent, sentiment = predict_sentiment(text, vocab, tokenizer, saved_model)
     print('Review: [%s]\nSentiment: %s (%.3f%%)' % (text, sentiment, percent*100))
+    
+   
+'''
+Note: Save tokenizer while performing processing steps to avoid repeating the same procedure.
+'''
