@@ -17,6 +17,11 @@ directory_neg = 'Data/Raw/neg' # file address for positive sentences
 vocab_filename = 'Data/Vocab/vocab_min_occ.txt' # vocab filename with its location
 
 
+'''
+Note: Last 100 negative reviews as well as last 100 positive reviews will be used for model testing.
+'''
+
+
 def load_doc(filename):
     '''
     Function to load document into memory.
